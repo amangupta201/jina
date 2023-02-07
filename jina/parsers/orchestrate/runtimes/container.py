@@ -46,6 +46,7 @@ Note,
         )
         gp.add_argument(
             '--gpus',
+            default='all',
             type=str,
             help=f'''
     This argument allows dockerized Jina Executors to discover local gpu devices.
